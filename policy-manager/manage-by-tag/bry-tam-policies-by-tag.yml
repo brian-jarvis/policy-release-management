@@ -18,11 +18,11 @@ spec:
       project: default
       source:
         repoURL: https://github.com/brian-jarvis/bry-acm-policy-samples.git
-        targetRevision: {{revision}}
-        path: environments/{{environment}}
+        targetRevision: '{{revision}}'
+        path: 'environments/{{environment}}'
       destination:
         server: 'https://kubernetes.default.svc'
-        namespace: bry-tam-policies-{{environment}}
+        namespace: 'bry-tam-policies-{{environment}}'
       syncPolicy:
         automated:
           prune: true
