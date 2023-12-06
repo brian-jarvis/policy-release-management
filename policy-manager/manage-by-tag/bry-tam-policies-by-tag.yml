@@ -10,14 +10,14 @@ spec:
       - environment: dev
         revision: dev-v0.1.0
       - environment: prod
-        revision: prod-v0.1.0
+        revision: ft-placements
   template:
     metadata:
       name: 'bry-policies-{{environment}}'
     spec:
       project: default
       source:
-        repoURL: https://github.com/bry-tam/acm-policy-samples.git
+        repoURL: https://github.com/brian-jarvis/bry-acm-policy-samples.git
         targetRevision: {{revision}}
         path: environments/{{environment}}
       destination:
