@@ -8,7 +8,7 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: dev
+        revision: ft-placements
       - environment: prod
         revision: ft-placements
   template:
