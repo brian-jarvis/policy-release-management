@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: fix-acm-infra
       - environment: prod
-        revision: fix-acm-infra
+        revision: playground-policygen
   template:
     metadata:
       name: 'bry-policies-{{environment}}'
