@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: fix-acm-infra
+        revision: add-loki-logging
       - environment: prod
-        revision: playground-policygen
+        revision: add-loki-logging
   template:
     metadata:
       name: 'bry-policies-{{environment}}'
