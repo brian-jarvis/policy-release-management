@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: dev
+        revision: gatekeeper-cleanup
       - environment: prod
-        revision: dev
+        revision: gatekeeper-cleanup
   template:
     metadata:
       name: 'bry-policies-{{environment}}'
