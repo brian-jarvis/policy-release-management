@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: cluster-autoscale
+        revision: main
       - environment: prod
-        revision: cluster-autoscale
+        revision: main
   template:
     metadata:
       name: 'bry-policies-{{environment}}'
