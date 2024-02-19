@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: defaut-worker-scheduler
+        revision: main
       - environment: prod
-        revision: defaut-worker-scheduler
+        revision: servicemesh-alt-ns
   template:
     metadata:
       name: 'bry-policies-{{environment}}'
