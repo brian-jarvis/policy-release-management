@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: servicemesh-alt-ns
+        revision: main
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
