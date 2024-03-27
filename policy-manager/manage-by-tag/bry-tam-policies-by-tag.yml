@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: policy-cleanup
+        revision: cluster-health-eval
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
