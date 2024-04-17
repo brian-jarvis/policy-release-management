@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: cluster-health-eval
+        revision: acm-210
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
