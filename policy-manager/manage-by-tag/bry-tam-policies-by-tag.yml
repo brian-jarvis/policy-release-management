@@ -8,7 +8,7 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: main
+        revision: acm-210
       - environment: prod
         revision: acm-210
   syncPolicy:
