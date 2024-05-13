@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: acm-210
+        revision: servicemesh-tracing
       - environment: prod
-        revision: acm-210
+        revision: servicemesh-tracing
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
