@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: servicemesh-tracing
       - environment: prod
-        revision: servicemesh-tracing
+        revision: acm-placment-tolerations
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
