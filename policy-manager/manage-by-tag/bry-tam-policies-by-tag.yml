@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: servicemesh-tracing
+        revision: appset-dev
       - environment: prod
-        revision: acm-placment-tolerations
+        revision: appset-dev
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
