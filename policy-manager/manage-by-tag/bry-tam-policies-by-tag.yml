@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: appset-dev
+        revision: fix-mesh
       - environment: prod
-        revision: appset-dev
+        revision: fix-mesh
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
