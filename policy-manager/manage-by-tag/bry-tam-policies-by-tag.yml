@@ -8,7 +8,7 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: fix-mesh
+        revision: main
       - environment: prod
         revision: fix-mesh
   syncPolicy:
