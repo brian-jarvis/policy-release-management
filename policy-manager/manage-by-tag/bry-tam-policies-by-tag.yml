@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: logging-update-6
+        revision: policy-cleanup
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
