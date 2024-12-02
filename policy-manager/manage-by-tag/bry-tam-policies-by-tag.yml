@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: aap-policy
+        revision: correct-logging-migration
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
