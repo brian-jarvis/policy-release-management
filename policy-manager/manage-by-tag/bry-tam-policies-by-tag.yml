@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: correct-logging-migration
+        revision: add-trusted-kube-config
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
