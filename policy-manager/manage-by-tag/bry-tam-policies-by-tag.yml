@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: prod
+        revision: main
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
