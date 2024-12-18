@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: add-trusted-kube-config
+        revision: prod
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
