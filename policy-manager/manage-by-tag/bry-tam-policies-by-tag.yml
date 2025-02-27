@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: main
+        revision: node-remediation
       - environment: prod
-        revision: main
+        revision: node-remediation
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
