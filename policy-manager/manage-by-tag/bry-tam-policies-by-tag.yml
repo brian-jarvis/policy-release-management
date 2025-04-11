@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: node-remediation
+        revision: remote-logging
       - environment: prod
-        revision: node-remediation
+        revision: remote-logging
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
