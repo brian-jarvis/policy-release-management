@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: remote-logging
+        revision: reorg-p1-operator-cleanup
       - environment: prod
-        revision: remote-logging
+        revision: reorg-p1-operator-cleanup
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
