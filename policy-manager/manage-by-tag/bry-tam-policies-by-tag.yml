@@ -8,7 +8,7 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: reorg-p1-operator-cleanup
+        revision: main
       - environment: prod
         revision: reorg-p1-operator-cleanup
   syncPolicy:
@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/brian-jarvis/bry-acm-policy-samples.git
+        repoURL: https://github.com/bry-tam/acm-policy-samples.git
         targetRevision: '{{revision}}'
         path: 'environments/{{environment}}'
       destination:
