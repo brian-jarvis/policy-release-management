@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: reorg-p1-operator-cleanup
+        revision: main
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
