@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/bry-tam/acm-policy-samples.git
+        repoURL: https://github.com/brian-jarvis/bry-acm-policy-samples.git
         targetRevision: '{{revision}}'
         path: 'environments/{{environment}}'
       destination:
