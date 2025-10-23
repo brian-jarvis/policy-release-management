@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: reorg-p2-policy-cleanup
+        revision: rename-hub-cluster
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
