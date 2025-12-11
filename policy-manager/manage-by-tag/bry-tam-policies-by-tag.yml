@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: main
       - environment: prod
-        revision: rename-hub-cluster
+        revision: acm-2.15
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
