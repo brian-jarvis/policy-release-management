@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: acm-2.15
+        revision: acm-2.16
       - environment: prod
-        revision: acm-2.15
+        revision: acm-2.16
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
