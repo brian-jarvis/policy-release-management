@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: acm-2.16
       - environment: prod
-        revision: acm-2.16
+        revision: logicmonitor-deployment
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
