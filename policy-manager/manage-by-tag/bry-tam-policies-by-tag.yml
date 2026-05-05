@@ -10,11 +10,13 @@ spec:
       - environment: dev
         revision: acm-2.16
       - environment: prod
-        revision: logicmonitor-deployment
+        revision: ntp-config
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
     metadata:
+      annotations:
+        argocd.argoproj.io/compare-options: ServerSideDiff=true,IncludeMutationWebhook=true
       name: 'bry-policies-{{environment}}'
     spec:
       project: default
@@ -33,3 +35,4 @@ spec:
         syncOptions:
           - CreateNamespace=true
           - Validate=false
+          - ServerSideApply=true
