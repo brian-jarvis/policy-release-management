@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: acm-2.16
       - environment: prod
-        revision: ntp-config
+        revision: main
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
