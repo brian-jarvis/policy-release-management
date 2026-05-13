@@ -10,7 +10,7 @@ spec:
       - environment: dev
         revision: acm-2.16
       - environment: prod
-        revision: main
+        revision: test-helm
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
