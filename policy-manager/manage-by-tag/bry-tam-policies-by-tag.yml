@@ -8,9 +8,9 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: acm-2.16
+        revision: main
       - environment: prod
-        revision: test-helm
+        revision: logicmonitor-cleanup
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
