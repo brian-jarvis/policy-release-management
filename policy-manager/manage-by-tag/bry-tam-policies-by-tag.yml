@@ -9,6 +9,8 @@ spec:
       elements:
       - environment: dev
         revision: main
+      - environment: implt
+        revision: logicmonitor-cleanup
       - environment: prod
         revision: logicmonitor-cleanup
   syncPolicy:
