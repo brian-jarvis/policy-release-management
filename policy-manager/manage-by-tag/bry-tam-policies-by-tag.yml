@@ -10,9 +10,9 @@ spec:
       - environment: dev
         revision: main
       - environment: implt
-        revision: logicmonitor-cleanup
+        revision: main
       - environment: prod
-        revision: logicmonitor-cleanup
+        revision: ingress-firewall-operator
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
