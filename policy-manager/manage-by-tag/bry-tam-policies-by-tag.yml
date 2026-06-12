@@ -12,7 +12,7 @@ spec:
       - environment: implt
         revision: main
       - environment: prod
-        revision: ingress-firewall-operator
+        revision: main
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
