@@ -12,7 +12,7 @@ spec:
       - environment: implt
         revision: main
       - environment: prod
-        revision: implement-perses-dashboards
+        revision: acm-5
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
