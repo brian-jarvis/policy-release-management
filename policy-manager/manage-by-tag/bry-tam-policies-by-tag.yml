@@ -8,11 +8,11 @@ spec:
   - list:
       elements:
       - environment: dev
-        revision: implement-perses-dashboards
+        revision: automate-cluster-upgrades
       - environment: implt
         revision: main
       - environment: prod
-        revision: implement-perses-dashboards
+        revision: automate-cluster-upgrades
   syncPolicy:
     preserveResourcesOnDeletion: true
   template:
